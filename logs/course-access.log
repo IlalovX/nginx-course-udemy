@@ -1,0 +1,8 @@
+172.18.0.1 - - [04/Aug/2026:22:48:50 +0000] "GET / HTTP/1.1" 200 262 "-" "curl/8.17.0"
+172.18.0.1 - - [04/Aug/2026:22:48:50 +0000] "GET /health HTTP/1.1" 200 17 "-" "curl/8.17.0"
+172.18.0.1 - - [04/Aug/2026:22:48:50 +0000] "GET /not-found HTTP/1.1" 404 153 "-" "curl/8.17.0"
+172.18.0.1 - - [04/Aug/2026:23:14:15 +0000] "GET /geo HTTP/1.1" 200 108 country_code="-" country_name="-" "-" "curl/8.17.0"
+172.18.0.1 - - [04/Aug/2026:23:15:55 +0000] "GET /geo HTTP/1.1" 200 123 country_code="US" country_name="United States" "-" "curl/8.17.0"
+client_ip="8.8.8.8" proxy_ip="172.18.0.1" forwarded_for="8.8.8.8" [04/Aug/2026:23:18:22 +0000] "GET /geo HTTP/1.1" 200 180 country_code="US" country_name="United States" "-" "curl/8.17.0"
+client_ip="8.8.8.8" proxy_ip="172.18.0.1" forwarded_for="8.8.8.8" [04/Aug/2026:23:26:36 +0000] "GET /geo HTTP/1.1" 200 233 country_code="US" country_name="United States" country_blocked="1" "-" "curl/8.17.0"
+client_ip="8.8.8.8" proxy_ip="172.18.0.1" forwarded_for="8.8.8.8" [04/Aug/2026:23:26:36 +0000] "GET /restricted HTTP/1.1" 403 153 country_code="US" country_name="United States" country_blocked="1" "-" "curl/8.17.0"
