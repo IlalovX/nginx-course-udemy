@@ -1,0 +1,7 @@
+2026/08/05 09:56:04 [error] 42#42: *3 user "admin": password mismatch, client: 172.19.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8443"
+2026/08/05 09:56:10 [error] 43#43: *4 user "admin": password mismatch, client: 172.19.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8443"
+2026/08/05 09:56:40 [error] 44#44: *5 user "admin": password mismatch, client: 172.19.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8443"
+2026/08/05 09:57:41 [error] 48#48: *9 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/2.0", host: "localhost:8443", referrer: "https://localhost:8443/admin/"
+2026/08/05 10:02:34 [error] 49#49: *10 user "admin": password mismatch, client: 172.19.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8443"
+2026/08/05 10:10:14 [error] 109#109: *13 user "admin": password mismatch, client: 172.19.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", host: "localhost:8443"
+2026/08/05 10:10:46 [error] 111#111: *15 client intended to send too large body: 2097152 bytes, client: 172.19.0.1, server: localhost, request: "POST /health HTTP/1.1", host: "localhost:8443"
