@@ -1,0 +1,3 @@
+client_ip="172.19.0.1" proxy_ip="172.19.0.1" forwarded_for="-" [05/Aug/2026:09:25:40 +0000] "GET /health HTTP/1.1" 200 74 country_code="UNKNOWN" country_name="Unknown" country_blocked="0" "-" "curl/8.18.0"
+client_ip="172.19.0.1" proxy_ip="172.19.0.1" forwarded_for="-" [05/Aug/2026:09:35:46 +0000] "GET /health HTTP/2.0" 200 74 country_code="UNKNOWN" country_name="Unknown" country_blocked="0" "-" "curl/8.21.0"
+client_ip="172.19.0.1" proxy_ip="172.19.0.1" forwarded_for="-" [05/Aug/2026:09:35:57 +0000] "GET /health HTTP/2.0" 200 74 country_code="UNKNOWN" country_name="Unknown" country_blocked="0" "-" "curl/8.21.0"
