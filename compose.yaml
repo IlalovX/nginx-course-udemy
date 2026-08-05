@@ -18,3 +18,4 @@ services:
       - ./logs:/var/log/nginx
       - ./geoip:/usr/share/GeoIP:ro
       - ./certs:/etc/nginx/certs:ro
+      - ./auth/.htpasswd:/etc/nginx/.htpasswd:ro
